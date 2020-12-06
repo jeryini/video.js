@@ -1917,11 +1917,11 @@ class Player extends Component {
       return;
     }
 
-    if (this.paused()) {
-      silencePromise(this.play());
-    } else {
-      this.pause();
-    }
+    // if (this.paused()) {
+    //   silencePromise(this.play());
+    // } else {
+    //   this.pause();
+    // }
   }
 
   /**
